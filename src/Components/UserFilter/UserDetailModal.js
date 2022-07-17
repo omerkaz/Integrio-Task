@@ -5,7 +5,7 @@ import Modal from "react-modal";
 const customStyles = {
   content: {
     backgroundColor: "#2096ff",
-    color : white,
+    color : "white",
     top: "50%",
     left: "50%",
     right: "auto",

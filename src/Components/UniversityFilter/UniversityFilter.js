@@ -125,7 +125,7 @@ function UniversityFilter() {
           <div className="container">
             <form>
               <div className="row mt-5">
-                <div className="col-lg-10 offset-lg-3">
+                <div className="col-lg-9 offset-lg-3">
                   <div className="row offset-md-2 offset-lg-0">
                     <div className="col-lg-4 col-md-4 col-sm-12 p-0">
                       <input
