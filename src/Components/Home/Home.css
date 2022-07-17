@@ -1,0 +1,14 @@
+.display-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 38vh;
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.lead {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
