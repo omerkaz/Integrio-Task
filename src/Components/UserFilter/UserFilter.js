@@ -158,7 +158,7 @@ function UserFilter() {
             <div className="col-12 d-flex justify-content-center mt-3">
               <form>
                 <div className="row">
-                  <div className="col-lg-5 col-md-5 col-sm-12 p-0">
+                  <div className="col-lg-7 col-md-7 col-sm-12 p-0">
                     <input
                       onChange={(e) => {
                         setMailFilter(e.target.value);
@@ -184,21 +184,10 @@ function UserFilter() {
                       <option value="female">Female</option>
                     </select>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-12 p-0">
-                    <button
-                      style={{ backgroundColor: "#2096ff", color: "white" }}
-                      type="button"
-                      className="btn wrn-btn"
-                    >
-                      Search
-                    </button>
-                  </div>
                 </div>
               </form>
             </div>
-            
-              <PaginatedItems itemsPerPage={12} />
-            
+            <PaginatedItems itemsPerPage={12} />
           </div>
         </div>
       </>
