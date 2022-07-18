@@ -173,9 +173,9 @@ function UniversityFilter() {
             </div>
             <form>
               <div className="row mt-4">
-                <div className="col-lg-10 offset-lg-2">
+                <div className="col-lg-12 offset-lg-0 d-flex justify-content-center">
                   <div className="row offset-md-2 offset-lg-0">
-                    <div className="col-lg-3 col-md-3 col-sm-12 p-0">
+                    <div className="col-lg-5 col-md-9 col-sm-12 offset-lg-1 p-0 me-lg-1 mb-1 mb-lg-0">
                       <input
                         ref={refNameValue}
                         type="text"
@@ -183,7 +183,7 @@ function UniversityFilter() {
                         placeholder="Enter University Name"
                       />
                     </div>
-                    <div className="col-lg-3 col-md-3 col-sm-12 p-0 ms-3">
+                    <div className="col-lg-5 col-md-9 col-sm-12 ms-lg-1 p-0">
                       <input
                         ref={refCountryValue}
                         type="text"
@@ -191,7 +191,7 @@ function UniversityFilter() {
                         placeholder="Enter Country"
                       />
                     </div>
-                    <div className="col-lg-9 col-md-9 col-sm-12 p-0 px-1 d-flex mt-3">
+                    <div className="col-lg-10 col-md-9 col-sm-12 offset-lg-1 p-0 px-1 mt-3 ">
                       <button
                         style={{ backgroundColor: "#2096ff", color: "white" }}
                         type="button"
