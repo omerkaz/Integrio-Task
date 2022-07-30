@@ -1,5 +1,5 @@
 * https://interio-task.netlify.app 
-/ Üniversite Arama sayfasında arama yapmak için kullandığım APİ "https" yerine "http" kullandığı için netlify hata veriyordu bu yüzden yönlendirme yapmam gerekti fakat yönlendirmenin ardından query params çalışmamaya başladı ve APİ'deki tüm veriyi direkt çeker hale geldi. Epey uğraştım fakat yönlendirme olmadan APİ çalışmıyor varken de query params çalışmıyor. Localde projenin hiçbir sorunu bulunmamaktadır. /
+* / Üniversite araması yapmak için kullandığım APİ "https" yerine "http" kullandığı için netlify hata veriyordu bu yüzden yönlendirme yapmam gerekti fakat yönlendirmenin ardından query params çalışmamaya başladı ve APİ'deki tüm veriyi direkt çeker hale geldi. Epey uğraştım fakat yönlendirme olmadan APİ çalışmıyor varken de query params çalışmıyor. Localde projenin hiçbir sorunu bulunmamaktadır. /
 
 # Integrio Frontend Task Assignment
 
