@@ -79,7 +79,7 @@ function UserFilter() {
           ? Math.ceil(filteredArr.length / itemsPerPage)
           : Math.ceil(items.length / itemsPerPage)
       );
-    }, [itemOffset, itemsPerPage, filteredArr]);
+    }, [itemOffset, itemsPerPage]);
 
     const handlePageClick = (event) => {
       const newOffset =

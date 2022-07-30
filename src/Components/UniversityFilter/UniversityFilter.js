@@ -6,7 +6,6 @@ import "./UniversityFilter.css";
 function UniversityFilter() {
   const [uniName, setUniName] = useState("");
   const [countryName, setCountryName] = useState("");
-  const [alphaTwoCode, setAlphaTwoCode] = useState("")
   const [btnActive, setBtnActive] = useState(false);
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
@@ -20,7 +19,6 @@ function UniversityFilter() {
           params: {
             name: uniName,
             country: countryName,
-            alpha_two_code : alphaTwoCode,
           },
         })
         .then(
@@ -33,7 +31,7 @@ function UniversityFilter() {
             setError(error);
           }
         );
-  }, [uniName, countryName, alphaTwoCode]);
+  }, [uniName, countryName]);
   // AXİOS-DATA-END
 
   // SEARCH-BUTTON-START

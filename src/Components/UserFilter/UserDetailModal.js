@@ -50,7 +50,7 @@ function UserDetailModal(props) {
           </p>
           <hr />
 
-          <a onClick={openModal} href="#" className="user-btn mb-1 btn btn-primary position-absolute bottom-0 start-50 translate-middle-x ">
+          <a onClick={openModal} className="user-btn mb-1 btn btn-primary position-absolute bottom-0 start-50 translate-middle-x ">
             Details
           </a>
         </div>
